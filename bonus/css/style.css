@@ -1,0 +1,38 @@
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+.container{
+    width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+body{
+    font-size: 30px;
+}
+
+h1{
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+h1,p{
+    padding: 20px 0;
+}
+
+p.nb{
+    font-size: 12px;
+}
+
+.generated-pass{
+    padding: 20px;
+    border: 1px outset black;
+    background-color: yellow;
+    line-height: 20px;
+}
