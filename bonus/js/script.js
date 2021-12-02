@@ -12,7 +12,7 @@ let userColor = prompt('Digita il tuo colore preferito');
 let defaultPhrase = 'Nel mezzo del cammin di nostra vita';
 let defaultMatches = defaultPhrase.match(/\b(\w)/g);
 let defaultAcronym = defaultMatches.join('');
-let userPhrase = prompt(`Digita una frase a tua scelta. Es: ${defaultPhrase} --- otterremo: ${defaultAcronym}`);
+let userPhrase = prompt(`Digita una frase a tua scelta. Es: ${defaultPhrase} --- otterremo: ${defaultAcronym.toLowerCase()}`);
 console.log(userPhrase);//debug
 //set object #xxx-pass as variable
 let firstPass = document.getElementById('first-pass');
